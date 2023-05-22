@@ -1,5 +1,11 @@
 .container {
     max-width: 1200px;
+    height: 100%;
     margin: 0 auto;
 }
-
+.spin__box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

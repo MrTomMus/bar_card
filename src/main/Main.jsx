@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 
 
+
 let Main = (props) => {
     return (
         <div className={classes.main__background}>
@@ -11,7 +12,7 @@ let Main = (props) => {
                 <div className={classes.title}>
                     <h1>Bar Card</h1>
                     <Link to={'/menu'}>View bar</Link>
-                </div>
+                </div>              
             </div>
         </div>
     )

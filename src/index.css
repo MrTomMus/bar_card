@@ -1,7 +1,17 @@
-body {
-  margin: 0;
+html {
+  height: 100vh;
 }
 
-code {
+body {
+  height: 100vh;
+  margin: 0;
+  background: black;
+}
 
+a {
+  text-decoration: none;
+}
+
+.root {
+  height: 100%;
 }
